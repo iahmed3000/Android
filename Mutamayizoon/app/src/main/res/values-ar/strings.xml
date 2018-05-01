@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mutamayizoon</string>
+    <string name="depart">وقت الذهاب</string>
+    <string name="arrival">وقت الاياب</string>
+</resources>
