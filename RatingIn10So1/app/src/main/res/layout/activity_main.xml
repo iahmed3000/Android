@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.ratingin10so1.MainActivity">
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        >
+
+        <TextView
+            android:id="@+id/quality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qservice"/>
+
+        <TextView
+            android:id="@+id/reception"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/quality"
+            android:layout_alignStart="@+id/quality"
+            android:layout_below="@+id/quality"
+            android:layout_marginTop="50dp"
+            android:text="@string/reception"
+            />
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/reception"
+            android:layout_alignStart="@+id/reception"
+            android:layout_below="@+id/reception"
+            android:layout_marginTop="20dp"
+            android:isIndicator="false"
+            android:numStars="4"
+            android:stepSize="1.0" />
+
+        <TextView
+            android:id="@+id/txtRatingValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ratingBar"
+            android:layout_toEndOf="@+id/quality"
+            android:text="@string/zero" />
+        <TextView
+            android:id="@+id/gameOperator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ratingBar"
+            android:layout_alignStart="@+id/ratingBar"
+            android:layout_below="@+id/ratingBar"
+            android:layout_marginTop="50dp"
+            android:text="@string/game"
+            />
+        <RatingBar
+            android:id="@+id/ratingBar2"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/gameOperator"
+            android:layout_alignStart="@+id/gameOperator"
+            android:layout_below="@+id/gameOperator"
+            android:layout_marginTop="20dp"
+            android:isIndicator="false"
+            android:numStars="4"
+            android:stepSize="1.0" />
+        <TextView
+            android:id="@+id/txtRatingValue2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ratingBar2"
+            android:layout_toEndOf="@+id/quality"
+            android:text="0" />
+        <TextView
+            android:id="@+id/cafeEmployee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ratingBar2"
+            android:layout_alignStart="@+id/ratingBar2"
+            android:layout_below="@+id/ratingBar2"
+            android:layout_marginTop="50dp"
+            android:text="@string/cafe"
+            />
+        <RatingBar
+            android:id="@+id/ratingBar3"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/cafeEmployee"
+            android:layout_alignStart="@+id/cafeEmployee"
+            android:layout_below="@+id/cafeEmployee"
+            android:layout_marginTop="20dp"
+            android:isIndicator="false"
+            android:numStars="4"
+            android:stepSize="1.0" />
+        <TextView
+            android:id="@+id/txtRatingValue3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ratingBar3"
+            android:layout_toEndOf="@+id/quality"
+            android:text="0" />
+        <TextView
+            android:id="@+id/speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ratingBar3"
+            android:layout_alignStart="@+id/ratingBar3"
+            android:layout_below="@+id/ratingBar3"
+            android:layout_marginTop="50dp"
+            android:text="@string/speed"
+            />
+        <TextView
+            android:id="@+id/reception2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/speed"
+            android:layout_alignStart="@+id/speed"
+            android:layout_below="@+id/speed"
+            android:layout_marginTop="50dp"
+            android:text="@string/reception"
+            />
+        <RatingBar
+            android:id="@+id/ratingBar4"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/reception2"
+            android:layout_alignStart="@+id/reception2"
+            android:layout_below="@+id/reception2"
+            android:layout_marginTop="20dp"
+            android:isIndicator="false"
+            android:numStars="4"
+            android:stepSize="1.0" />
+        <TextView
+            android:id="@+id/txtRatingValue4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ratingBar4"
+            android:layout_toEndOf="@+id/quality"
+            android:text="0" />
+        <TextView
+            android:id="@+id/gameOperator2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ratingBar4"
+            android:layout_alignStart="@+id/ratingBar4"
+            android:layout_below="@+id/ratingBar4"
+            android:layout_marginTop="50dp"
+            android:text="@string/game"
+            />
+        <RatingBar
+            android:id="@+id/ratingBar5"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/gameOperator2"
+            android:layout_alignStart="@+id/gameOperator2"
+            android:layout_below="@+id/gameOperator2"
+            android:layout_marginTop="20dp"
+            android:isIndicator="false"
+            android:numStars="4"
+            android:stepSize="1.0" />
+        <TextView
+            android:id="@+id/txtRatingValue5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ratingBar5"
+            android:layout_toEndOf="@+id/quality"
+            android:text="0" />
+        <TextView
+            android:id="@+id/cafeEmployee2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ratingBar5"
+            android:layout_alignStart="@+id/ratingBar5"
+            android:layout_below="@+id/ratingBar5"
+            android:layout_marginTop="50dp"
+            android:text="@string/cafe"
+            />
+        <RatingBar
+            android:id="@+id/ratingBar6"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/cafeEmployee2"
+            android:layout_alignStart="@+id/cafeEmployee2"
+            android:layout_below="@+id/cafeEmployee2"
+            android:layout_marginTop="20dp"
+            android:isIndicator="false"
+            android:numStars="4"
+            android:stepSize="1.0" />
+        <TextView
+            android:id="@+id/txtRatingValue6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ratingBar6"
+            android:layout_toEndOf="@+id/quality"
+            android:text="0" />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/cleanliness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ratingBar6"
+            android:layout_alignStart="@+id/ratingBar6"
+            android:layout_below="@+id/ratingBar6"
+            android:layout_marginTop="50dp"
+            android:text="@string/atmosphere"
+            />
+        <TextView
+            android:id="@+id/ac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/cleanliness"
+            android:layout_alignStart="@+id/cleanliness"
+            android:layout_below="@+id/cleanliness"
+            android:layout_marginTop="50dp"
+            android:text="@string/ac"
+            />
+        <RatingBar
+            android:id="@+id/ratingBar7"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ac"
+            android:layout_alignStart="@+id/ac"
+            android:layout_below="@+id/ac"
+            android:layout_marginTop="20dp"
+            android:isIndicator="false"
+            android:numStars="4"
+            android:stepSize="1.0" />
+        <TextView
+            android:id="@+id/txtRatingValue7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ratingBar7"
+            android:layout_toEndOf="@+id/quality"
+            android:text="0" />
+        <TextView
+            android:id="@+id/center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ratingBar7"
+            android:layout_alignStart="@+id/ratingBar7"
+            android:layout_below="@+id/ratingBar7"
+            android:layout_marginTop="50dp"
+            android:text="@string/center"
+            />
+        <RatingBar
+            android:id="@+id/ratingBar8"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/center"
+            android:layout_alignStart="@+id/center"
+            android:layout_below="@+id/center"
+            android:layout_marginTop="20dp"
+            android:isIndicator="false"
+            android:numStars="4"
+            android:stepSize="1.0" />
+        <TextView
+            android:id="@+id/txtRatingValue8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ratingBar8"
+            android:layout_toEndOf="@+id/quality"
+            android:text="0" />
+        <TextView
+            android:id="@+id/toilet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ratingBar8"
+            android:layout_alignStart="@+id/ratingBar8"
+            android:layout_below="@+id/ratingBar8"
+            android:layout_marginTop="50dp"
+            android:text="@string/toilets"
+            />
+        <RatingBar
+            android:id="@+id/ratingBar9"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/toilet"
+            android:layout_alignStart="@+id/toilet"
+            android:layout_below="@+id/toilet"
+            android:layout_marginTop="20dp"
+            android:isIndicator="false"
+            android:numStars="4"
+            android:stepSize="1.0" />
+        <TextView
+            android:id="@+id/txtRatingValue9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ratingBar9"
+            android:layout_toEndOf="@+id/quality"
+            android:text="0" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/re_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ratingBar9"
+            android:layout_alignStart="@+id/ratingBar9"
+            android:layout_below="@+id/ratingBar9"
+            android:layout_marginTop="50dp"
+            android:text="@string/rArea"
+            />
+        <RatingBar
+            android:id="@+id/ratingBar10"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/re_area"
+            android:layout_alignStart="@+id/re_area"
+            android:layout_below="@+id/re_area"
+            android:layout_marginTop="20dp"
+            android:isIndicator="false"
+            android:numStars="4"
+            android:stepSize="1.0" />
+        <TextView
+            android:id="@+id/txtRatingValue10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ratingBar10"
+            android:layout_toEndOf="@+id/quality"
+            android:text="0" />
+        <TextView
+            android:id="@+id/gamearea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ratingBar10"
+            android:layout_alignStart="@+id/ratingBar10"
+            android:layout_below="@+id/ratingBar10"
+            android:layout_marginTop="50dp"
+            android:text="@string/gArea"
+            />
+        <RatingBar
+            android:id="@+id/ratingBar11"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/gamearea"
+            android:layout_alignStart="@+id/gamearea"
+            android:layout_below="@+id/gamearea"
+            android:layout_marginTop="20dp"
+            android:isIndicator="false"
+            android:numStars="4"
+            android:stepSize="1.0" />
+        <TextView
+            android:id="@+id/txtRatingValue11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ratingBar11"
+            android:layout_toEndOf="@+id/quality"
+            android:text="0" />
+        <TextView
+            android:id="@+id/imagessound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ratingBar11"
+            android:layout_alignStart="@+id/ratingBar11"
+            android:layout_below="@+id/ratingBar11"
+            android:layout_marginTop="50dp"
+            android:text="@string/img"
+            />
+        <RatingBar
+            android:id="@+id/ratingBar12"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imagessound"
+            android:layout_alignStart="@+id/imagessound"
+            android:layout_below="@+id/imagessound"
+            android:layout_marginTop="20dp"
+            android:isIndicator="false"
+            android:numStars="4"
+            android:stepSize="1.0" />
+        <TextView
+            android:id="@+id/txtRatingValue12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/ratingBar12"
+            android:layout_toEndOf="@+id/quality"
+            android:text="0" />
+
+
+
+
+
+        <TextView
+            android:id="@+id/favouriteactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ratingBar12"
+            android:layout_alignStart="@+id/ratingBar12"
+            android:layout_below="@+id/ratingBar12"
+            android:layout_marginTop="50dp"
+            android:text="@string/favourite"
+            />
+        <CheckBox
+            android:id="@+id/karting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/favouriteactivity"
+            android:layout_alignStart="@+id/favouriteactivity"
+            android:layout_below="@+id/favouriteactivity"
+            android:layout_marginTop="20dp"
+            android:text="@string/karitng" />
+        <CheckBox
+            android:id="@+id/lasertag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/karting"
+            android:layout_alignStart="@+id/karting"
+            android:layout_below="@+id/karting"
+            android:text="@string/laser" />
+        <CheckBox
+            android:id="@+id/bowling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lasertag"
+            android:layout_alignStart="@+id/lasertag"
+            android:layout_below="@+id/lasertag"
+            android:text="@string/bowling" />
+        <CheckBox
+            android:id="@+id/billiards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/bowling"
+            android:layout_alignStart="@+id/bowling"
+            android:layout_below="@+id/bowling"
+            android:text="@string/billiards" />
+        <CheckBox
+            android:id="@+id/climbing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/billiards"
+            android:layout_alignStart="@+id/billiards"
+            android:layout_below="@+id/billiards"
+            android:text="@string/climbing" />
+        <CheckBox
+            android:id="@+id/archery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/climbing"
+            android:layout_alignStart="@+id/climbing"
+            android:layout_below="@+id/climbing"
+            android:text="@string/archery" />
+        <CheckBox
+            android:id="@+id/videogames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/archery"
+            android:layout_alignStart="@+id/archery"
+            android:layout_below="@+id/archery"
+            android:text="@string/vgames" />
+        <CheckBox
+            android:id="@+id/netcafe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/videogames"
+            android:layout_alignStart="@+id/videogames"
+            android:layout_below="@+id/videogames"
+            android:text="@string/net" />
+
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/netcafe"
+            android:layout_marginTop="50dp"
+            android:text="@string/name"/>
+        />
+
+        <EditText
+            android:id="@+id/editText_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView_name"
+            android:ems="10"
+            android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/textView_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText_name"
+            android:text="@string/age" />
+        />
+
+        <EditText
+            android:id="@+id/editText_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView_age"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText_age"
+            android:text="@string/city" />
+        />
+
+        <EditText
+            android:id="@+id/editText_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView_city"
+            android:ems="10"
+            android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/textView_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText_city"
+            android:text="@string/mobile" />
+        />
+
+        <EditText
+            android:id="@+id/editText_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView_mobile"
+            android:ems="10"
+            android:inputType="number" />
+        <TextView
+            android:id="@+id/textView_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText_mobile"
+            android:text="@string/email" />
+        />
+
+        <EditText
+            android:id="@+id/editText_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView_email"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+        <TextView
+            android:id="@+id/textView_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/editText_email"
+            android:text="@string/comment" />
+        />
+
+        <EditText
+            android:id="@+id/editText_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView_comment"
+            android:ems="10"
+            android:inputType="text" />
+
+        <RadioGroup
+            android:id="@+id/radioGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_below="@+id/editText_comment">
+
+            <RadioButton
+                android:id="@+id/radioMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/male"
+                android:checked="true"
+                 />
+
+            <RadioButton
+                android:id="@+id/radioFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/female"
+                />
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioGender"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="60dp"
+            android:text="@string/submit"/>
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

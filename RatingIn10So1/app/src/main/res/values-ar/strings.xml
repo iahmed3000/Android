@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RatingIn10So1</string>
+    <string name="qservice">جودة الخدمة المقدمة لكم</string>
+    <string name="reception">من موظف الاستقبال</string>
+    <string name="game">من مشغل اللعبة</string>
+    <string name="cafe">من موظف الكوفى شوب</string>
+    <string name="speed">سرعة الاستجابة</string>
+    <string name="atmosphere">النظافة و الجو العام</string>
+    <string name="ac">التكييف</string>
+    <string name="center">نظافة المركز</string>
+    <string name="toilets">دورات المياه</string>
+    <string name="rArea">منطقة الاستقبال</string>
+    <string name="gArea">صالة الالعاب</string>
+    <string name="img">جودة الصوت و الصوره للمواد</string>
+    <string name="favourite">اكثر النشاطات لديكم بالمركز</string>
+    <string name="karitng">الكارتنج</string>
+    <string name="laser">ليزر تاج</string>
+    <string name="bowling">البولينج</string>
+    <string name="billiards">البيلياردو</string>
+    <string name="climbing">التسلق</string>
+    <string name="archery">الرماية</string>
+    <string name="vgames">العاب الفيديو</string>
+    <string name="net">مقهى نت</string>
+    <string name="name">الاسم:</string>
+    <string name="age">العمر:</string>
+    <string name="city">المدينة:</string>
+    <string name="mobile">الجوال:</string>
+    <string name="email">الايميل:</string>
+    <string name="male">ذكر</string>
+    <string name="female">انثى</string>
+    <string name="comment">ملاحظاتكم و اقتراحاتكم:</string>
+    <string name="submit">ارسال</string>
+    <string name="zero">0</string>
+
+</resources>

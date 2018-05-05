@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="app_name">RatingIn10So1</string>
+    <string name="qservice">Quality of Services provided جودة الخدمة المدمة لكم </string>
+    <string name="reception">From reception employee</string>
+    <string name="game">From the game operator</string>
+    <string name="cafe">From the cafe employee</string>
+    <string name="speed">The Speed of Response</string>
+    <string name="atmosphere">Cleanliness and general atmosphere</string>
+    <string name="ac">Air Condition</string>
+    <string name="center">The Center Cleanliness</string>
+    <string name="toilets">Toilets</string>
+    <string name="rArea">Reception Area</string>
+    <string name="gArea">Games Area</string>
+    <string name="img">Images and sounds quality</string>
+    <string name="favourite">Your favourite activity in the center</string>
+    <string name="karitng">Karting</string>
+    <string name="laser">Laser Tag</string>
+    <string name="bowling">Bowling</string>
+    <string name="billiards">Billiards</string>
+    <string name="climbing">Climbing</string>
+    <string name="archery">Archery</string>
+    <string name="vgames">Video Games</string>
+    <string name="net">Net Cafe</string>
+    <string name="name">Name:</string>
+    <string name="age">Age:</string>
+    <string name="city">City:</string>
+    <string name="mobile">Mobile:</string>
+    <string name="email">Email:</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="comment">Comments:</string>
+    <string name="submit">Submit</string>
+    <string name="zero">0</string>
+
+</resources>
