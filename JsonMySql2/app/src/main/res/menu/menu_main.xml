@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.jsonmysql2.MainActivity">
+
+    <item android:id="@+id/menu_new_customer"
+        android:title="@string/mm_new_customer"
+        app:showAsAction="collapseActionView"/>
+
+    <item android:id="@+id/action_refresh"
+        android:title="@string/mm_refresh"
+        android:orderInCategory="100"
+        app:showAsAction="collapseActionView"/>
+
+    <item android:id="@+id/action_sales_report"
+        android:title="@string/mm_sales_report"
+        android:orderInCategory="200"
+        app:showAsAction="collapseActionView"/>
+</menu>

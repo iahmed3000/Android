@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">IBeste</string>
+    <string name="action_settings">Settings</string>
+
+    <!--activity_cash_invoice.xml -->
+    <string name="cash_customer_name">Customer Name</string>
+    <string name="cash_invoice">Cash Invoice</string>
+    <string name="cash_invoice_number">Invoice Number:</string>
+    <string name="cash_amount">Amount:</string>
+    <string name="cash_save">Save</string>
+    <string name="cash_confirm">Confirm</string>
+
+    <!--activity_credit_invoice.xml -->
+    <string name="credit_customer_name">Customer Name</string>
+    <string name="credit_invoice">Credit Invoice</string>
+    <string name="credit_invoice_number">Invoice Number:</string>
+    <string name="credit_amount">Amount:</string>
+    <string name="credit_amount_paid">Amount Paid:</string>
+    <string name="credit_save">Save</string>
+    <string name="credit_confirm">Confirm</string>
+
+    <!--activity_customer_details.xml -->
+    <string name="cd_name">Name</string>
+    <string name="cd_save">Save</string>
+
+    <!--activity_transaction_type.xml -->
+    <string name="tt_customer_name">Customer Name</string>
+    <string name="tt_cash">Cash</string>
+    <string name="tt_credit">Credit</string>
+    <string name="tt_collection">Collection</string>
+    <string name="tt_proceed">Proceed</string>
+
+    <!--menu_main.xml -->
+    <string name="mm_new_customer">New Customer</string>
+    <string name="mm_refresh">Refresh</string>
+    <string name="mm_sales_report">Sales Report</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">IBeste</string>
+    <string name="action_settings">Settings</string>
+
+    <!--activity_cash_invoice.xml -->
+    <string name="cash_customer_name">اسم العميل</string>
+    <string name="cash_invoice">فاتوره نقدى</string>
+    <string name="cash_invoice_number">رقم الفاتورة:</string>
+    <string name="cash_amount">المبلغ:</string>
+    <string name="cash_save">حفظ</string>
+    <string name="cash_confirm">تاكيد</string>
+
+    <!--activity_credit_invoice.xml -->
+    <string name="credit_customer_name">اسم العميل</string>
+    <string name="credit_invoice">فاتوره اجل</string>
+    <string name="credit_invoice_number">رقم الفاتوره:</string>
+    <string name="credit_amount">المبلغ:</string>
+    <string name="credit_amount_paid">مبلغ المدفوع:</string>
+    <string name="credit_save">حفظ</string>
+    <string name="credit_confirm">تاكيد</string>
+
+    <!--activity_customer_details.xml -->
+    <string name="cd_name">الاسم</string>
+    <string name="cd_save">حفظ</string>
+
+    <!--activity_transaction_type.xml -->
+    <string name="tt_customer_name">اسم العميل</string>
+    <string name="tt_cash">نقدى</string>
+    <string name="tt_credit">اجل</string>
+    <string name="tt_collection">تحصيل</string>
+    <string name="tt_proceed">استمر</string>
+
+    <!--menu_main.xml -->
+    <string name="mm_new_customer">اضافة عميل</string>
+    <string name="mm_refresh">تنشيط</string>
+    <string name="mm_sales_report">تقرير البيع</string>
+</resources>

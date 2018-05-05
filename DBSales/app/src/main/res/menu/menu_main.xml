@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_new_customer"
+        android:title="New Customer"
+        android:icon="@drawable/ic_action_name"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_refresh"
+        android:title="Refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_sales_report"
+        android:title="Sales Report"
+        android:icon="@drawable/ic_action_name"
+        android:orderInCategory="200"
+        app:showAsAction="never"/>
+
+</menu>
